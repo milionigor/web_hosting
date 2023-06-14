@@ -10,11 +10,11 @@
 <body>
   <div class="navbar-container">
     <nav>
-        <a href="#"><img src="img/logo3.png" alt="" class="logo"></a>
+        <a href="#"><img src="img/logo3.png" alt="" id="logo"></a>
         <ul class="navbar-itens"> 
 <li><a href="#">HOME</a></li>
-<li><a href="planos">PLANOS</a></li>
-<li><a href="contato">CONTATOS</a></li>
+<li><a href="#planos">PLANOS</a></li>
+<li><a href="#contato">CONTATOS</a></li>
 <li><a href="#" class="default-bnt">LOGIN</a></li>
         </ul>
     </nav>
@@ -24,25 +24,109 @@
         <h1>WEB HOSTING</h1>
         <p>OS MELHORES PLANOS PARA QUALQUER TIPO DE PROJETO</p>
     </div>
-    <section class="especialidades-container"></section>
+    <section class="especialidades-container">
     <ul>
         <li>
-            <i class="fa-solid fa-shield-halved"></i>
+            <i class="fas fa-solid fa-shield-halved"></i>
             <h3>Segurança</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel molestias perspiciatis architecto fugit sed rerum possimus ex earum temporibus quis similique accusantium provident ab autem consectetur veritatis, suscipit magni totam.</p>
         </li>
         <li>
-            <i class="fa-solid fa-rocket"></i>
+            <i class="fas fa-solid fa-rocket"></i>
             <h3>Velocidade</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel molestias perspiciatis architecto fugit sed rerum possimus ex earum temporibus quis similique accusantium provident ab autem consectetur veritatis, suscipit magni totam.</p>
         </li>
         <li>
-            <i class="fa-sharp fa-solid fa-comments"></i>
+            <i class="fas fa-solid fa-comments"></i>
             <h3>Suporte</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel molestias perspiciatis architecto fugit sed rerum possimus ex earum temporibus quis similique accusantium provident ab autem consectetur veritatis, suscipit magni totam.</p>
         </li>
     </ul>
+</section>
+    <section class="planos-precos container">
+        <h1 id="planos">Planos e Preços</h1>
+        <p>Selecione o Plano Perfeito para Você</p>
+        <div class="plas-container">
+            <div class="plan">
+                <ul>
+                    <li class="price">R$ 32,00</li>
+                    <li class="plan-name">Padrão</li>
+                    <li>2Gb de Espaço em  Disco</li>
+                    <li>10 Sub-Domínios</li>
+                    <li>25 Contas de E-mails</li>
+                    <li>C-Painel</li>
+                    <li>Suporte 24 Horas</li>
+                    <li class="plan-btn">Selecionar</li>
+                </ul>
+            </div>
+        
+            <div class="plan">
+                <ul>
+                    <li class="price">R$ 50,00</li>
+                    <li class="plan-name">Dedicado</li>
+                    <li>5Gb de Espaço em  Disco</li>
+                    <li>20 Sub-Domínios</li>
+                    <li>50 Contas de E-mails</li>
+                    <li>C-Painel</li>
+                    <li>Suporte 24 Horas</li>
+                    <li class="plan-btn">Selecionar</li>
+                </ul>
+            </div>
+       
+            <div class="plan">
+                <ul>
+                    <li class="price recomendado">R$ 70,00</li>
+                    <li class="plan-name">Dedicado Plus</li>
+                    <li>10Gb de Espaço em  Disco</li>
+                    <li>100 Sub-Domínios</li>
+                    <li>100 Contas de E-mails</li>
+                    <li>C-Painel</li>
+                    <li>Suporte 24 Horas</li>
+                    <li class="plan-btn recomendado">Selecionar</li>
+                </ul>
+            </div>
+        
+            <div class="plan">
+                <ul>
+                    <li class="price">R$ 100,00</li>
+                    <li class="plan-name">Cloud</li>
+                    <li>20Gb de Espaço em  Disco</li>
+                    <li>200 Sub-Domínios</li>
+                    <li>200 Contas de E-mails</li>
+                    <li>C-Painel</li>
+                    <li>Suporte 24 Horas</li>
+                    <li class="plan-btn">Selecionar</li>
+                </ul>
+            </div>
+        </div>
+        <a href="#logo"><i class="fa-solid fa-circle-up fa-3x"></i></a>
+    </section>
+    <section class="buscar-dominio">
+        <h2>Buscar um Domínio</h2>
+        <p>Verifique se seu Domínio esta Disponível</p>
+        <form action="">
+            <input type="text" name="domain"placeholder="digite aqui um domínio desejado">
+            <input type="submit" value="Buscar Domínio">
+
+        </form>
+    </section>
+    <sction class="contato-container">
+        <h2 id="contato">Entre Em Contato</h2>
+        <p>Entre em contato para conversamos sobre a melhor hospedagem para seu negócio</p>
+        <form action="">
+            <input type="text"name="name"placeholder="Digite seu Nome">
+            <input type="text"name="email"placeholder="Digite se E-mail">
+            <textarea name="message"placeholder="Digite sua Mensagem"></textarea>
+            <input type="submit" value="Enviar">
+            <a href="#logo"><i class="fa-solid fa-circle-up fa-3x"></i></a>
+        </form>
+    </sction>
   </main>  
+  <footer>
+    <div>
+        <p>© 2004-2023 hostinger.com.br - Hospedagem de Sites, Cloud e VPS premium e Serviços de Registro de Domínio.</p>
+    </div>
+</footer>
   <script src="https://kit.fontawesome.com/0c8c970009.js"
   crossorigin="anonymous"></script>
 </body>
